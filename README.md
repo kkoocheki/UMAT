@@ -60,3 +60,8 @@ Material properties:
 | Shear softening parameter (1/m) | 500 |
 | Tensile Fracture Energy Release Rate |1|
 | Angle of weak plane with horizontal | 0 |
+
+#### Failure in Shear
+##### Input file: `Interface\one_elem_shear.inp`, Output file: `Interface\one_elem_shear.odb`
+The same model setup and material properties is used to model shear behaviour of a single element. An initial normal load is applied normal to the predefined failure plane, and shear displacement is applied on top.
+
